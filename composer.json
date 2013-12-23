@@ -1,0 +1,17 @@
+{
+	"description": "Basic IMDB Api",
+	"authors": [
+		{
+			"name": "Ozberk Ercin",
+			"email": "ozberk@gmail.com"
+		}
+	],
+	"require": {
+		"symfony/process": "~2.4"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-0": {"IMDB": "src/"}
+	}
+}
